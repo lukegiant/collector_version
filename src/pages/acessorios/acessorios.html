@@ -1,0 +1,22 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Acessórios</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+    <ion-fab right bottom>
+        <button ion-fab color="light"><ion-icon name="arrow-dropleft"></ion-icon></button>
+        <ion-fab-list side="left">
+          <button ion-fab (click)="addConsole()"><ion-icon name="desktop"></ion-icon></button> 
+          <button ion-fab (click)="addJogos()"><ion-icon name="game-controller-b"></ion-icon></button>
+          <button ion-fab (click)="addAcessorios()"><ion-icon name="cube"></ion-icon></button>
+        </ion-fab-list>
+      </ion-fab>
+
+</ion-content>
